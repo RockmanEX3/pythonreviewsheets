@@ -1,0 +1,35 @@
+import math
+from math import pi
+from math import e
+
+# Rounding -- round()
+# Floor -- int()
+# Ceil -- math.ceil()
+print(round(2.35))
+print(int(2.35))
+print(math.ceil(2.35))
+
+# Square Root -- math.sqrt()
+print(math.sqrt(25))
+
+# Natural Logs -- math.log()
+# Base Logs -- math.log(a,b) where a is input and b is base
+print(math.log(128,2))
+
+# Trig Functions -- math.sin() or math.cos() or math.tan(), input radians
+print(math.sin(pi/2))
+
+# remember the rules:
+# if you use "import math",
+# you must call the desired function like
+# math.sqrt(x)
+# or
+# math.cos(y)
+
+# But if you use "from math import cos"
+# this is how you call the function: 
+# cos(x)
+# Then, if you what to calculate a logarithm,
+# you need to write "from math import log"
+# and then you may call your logarithm
+# with log(y) or log(z,10)
