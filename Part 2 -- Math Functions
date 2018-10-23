@@ -3,7 +3,7 @@ from math import pi
 from math import e
 
 # Rounding -- round()
-# Floor -- int()
+# Floor -- int() or math.ceil()
 # Ceil -- math.ceil()
 print(round(2.35))
 print(int(2.35))
@@ -18,6 +18,9 @@ print(math.log(128,2))
 
 # Trig Functions -- math.sin() or math.cos() or math.tan(), input radians
 print(math.sin(pi/2))
+
+# Absolute Value -- abs()
+print(abs(-5))
 
 # remember the rules:
 # if you use "import math",
