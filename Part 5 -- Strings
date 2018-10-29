@@ -1,0 +1,26 @@
+s = "Mega Man"
+
+# String Indexing
+print(s[0])
+print(s[len(s)-1])
+print(s[-1])
+print(s[-len(s)])
+print("---")
+
+# Substringing
+print(s[0:2])
+print(s[::-1]) #backwards
+print(s[::2])
+print("---")
+
+# Finding Locations
+print(s.find("a")) #first
+print(s.rfind("a")) #last
+print(s.find("z"))
+print("---")
+
+# Replacing
+print(s.replace("Mega M","Rockm"))
+
+# Counting
+print(s.count("M"))
