@@ -1,0 +1,23 @@
+# Splitting String into List
+string = "A B C"
+list = string.split(" ")
+print(list)
+
+# Joining List Items to String
+list = ["a", "b", "c"]
+print(' '.join(list))
+
+# Generators
+list = [i ** 2 for i in range(1, 6)]
+print(list)
+list = [int(i) for i in "2 4 23 3245 345 23".split()]
+print(list) #Integers
+
+# List Analysis -- [item] in [list], max([list]), min([list]), [list].index([item]), [list].count([item])
+list = [1,2,3,4,5]
+print(1 in list)
+print(6 in list)
+print(max(list))
+print(list.count(1))
+
+# List can be sliced like strings
