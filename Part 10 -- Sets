@@ -1,0 +1,9 @@
+# Sets like lists, but repeated items not added
+
+A = {1,2,3,2,1}
+print(A)
+
+# Adding Items
+
+A.add(4)
+print(A)
